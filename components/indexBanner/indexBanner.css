@@ -14,10 +14,6 @@
   padding-top: 20px;
 }
 
-#banner .banner_right > img {
-  max-width: 100%;
-}
-
 #banner h1 {
   font-family: Lora;
   font-weight: 600;
@@ -104,6 +100,7 @@
 @media screen and (max-width: 576px) {
   #banner {
     padding-top: 100px;
+    margin-bottom: 80px;
   }
 
   #banner h1 {
