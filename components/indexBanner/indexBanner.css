@@ -1,0 +1,140 @@
+#banner {
+  background-image: url(../../public/banner_bg.jpg);
+  padding-top: 170px;
+}
+
+#banner .banner_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#banner .banner_left {
+  max-width: 665px;
+  padding-top: 20px;
+}
+
+#banner .banner_right > img {
+  max-width: 100%;
+}
+
+#banner h1 {
+  font-family: Lora;
+  font-weight: 600;
+  font-size: 57px;
+  line-height: 64px;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  color: #332d41;
+  margin-bottom: 24px;
+}
+
+#banner p {
+  font-family: Lora;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  color: #332d41;
+  margin-bottom: 24px;
+}
+
+#banner small {
+  font-family: Lora;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  color: #332d41;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 992px) {
+  #banner {
+    padding-top: 140px;
+  }
+
+  #banner h1 {
+    font-size: 48px;
+    line-height: 54px;
+  }
+
+  #banner p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #banner {
+    padding-top: 120px;
+  }
+
+  #banner .banner_container {
+    flex-direction: column;
+  }
+
+  #banner .banner_left {
+    max-width: 100%;
+    margin-bottom: 30px;
+    padding-top: unset;
+  }
+
+  #banner .banner_right {
+    text-align: center;
+  }
+
+  #banner .banner_right > img {
+    max-width: 250px;
+  }
+
+  #banner h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  #banner p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #banner {
+    padding-top: 100px;
+  }
+
+  #banner h1 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 16px;
+  }
+
+  #banner p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+
+  #banner small {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #banner {
+    padding-top: 90px;
+  }
+
+  #banner h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #banner .banner_right > img {
+    max-width: 100%;
+  }
+}
