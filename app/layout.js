@@ -1,5 +1,6 @@
 import { Lora, Lato } from "next/font/google";
 import "./globals.css";
+import Header from "../components/header/Header";
 
 const fontLora = Lora({
   weight: ["400", "700"],
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${fontLato.className} ${fontLora.className}`}>
+        <Header />
         {children}
       </body>
     </html>

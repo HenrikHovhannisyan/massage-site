@@ -1,0 +1,140 @@
+.header {
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.navigation a {
+  font-family: Lora;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  vertical-align: middle;
+  color: #6750a4;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: #513f83;
+}
+
+.mobile-menu-button {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger {
+  width: 30px;
+  height: 20px;
+  position: relative;
+}
+
+.hamburger span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #513f83;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.hamburger span:nth-child(1) {
+  top: 0;
+}
+
+.hamburger span:nth-child(2) {
+  top: 8px;
+}
+
+.hamburger span:nth-child(3) {
+  top: 16px;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 8px;
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 8px;
+}
+
+@media screen and (max-width: 992px) {
+  .navigation ul {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-menu-button {
+    display: block;
+    z-index: 101;
+  }
+
+  .navigation {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+    padding: 80px 30px 30px;
+  }
+
+  .navigation.active {
+    right: 0;
+  }
+
+  .navigation ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navigation a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logo img {
+    max-width: 120px;
+  }
+
+  .navigation {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .navigation {
+    width: 100%;
+  }
+}
