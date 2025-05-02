@@ -1,11 +1,13 @@
 import About from "@/components/about/About";
-import IndexBanner from "@/components/indexBanner/IndexBanner";
+import Banner from "@/components/banner/Banner";
+import Services from "@/components/services/Services";
 
 export default function Home() {
   return (
     <>
-      <IndexBanner />
+      <Banner />
       <About />
+      <Services />
     </>
   );
 }

@@ -17,6 +17,8 @@
 #about .about_content {
   display: flex;
   justify-content: space-between;
+  max-width: 1212px;
+  margin: 0 auto;
 }
 
 #about .about_content > .about_left {

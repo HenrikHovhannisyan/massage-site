@@ -1,7 +1,7 @@
 import React from "react";
-import "./indexBanner.css";
+import "./banner.css";
 
-const IndexBanner = () => {
+const Banner = () => {
   return (
     <section id="banner">
       <div className="container">
@@ -18,7 +18,7 @@ const IndexBanner = () => {
             </small>
           </div>
           <div className="banner_right">
-            <img src="/man.png" alt="banner" />
+            <img src="/images/man.png" alt="banner" />
           </div>
         </div>
       </div>
@@ -26,4 +26,4 @@ const IndexBanner = () => {
   );
 };
 
-export default IndexBanner;
+export default Banner;
