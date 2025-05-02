@@ -1,0 +1,129 @@
+#video {
+  margin-bottom: 80px;
+}
+
+#video h2 {
+  font-family: Lora;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 1px;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 48px;
+  color: #332d41;
+}
+
+#video .video-list {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+#video .video-item > iframe {
+  border: unset;
+  border-radius: 16px;
+}
+
+#video .instagram_btn {
+  padding: 11px 26px;
+  border: 1px solid #79747e;
+  border-radius: 100px;
+  color: #6750a4;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  width: max-content;
+  margin: auto;
+}
+
+@media screen and (max-width: 992px) {
+  #video h2 {
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 40px;
+  }
+
+  #video .video-item > iframe {
+    width: 280px;
+    height: 470px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #video {
+    margin-bottom: 60px;
+  }
+
+  #video h2 {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 32px;
+  }
+
+  #video .video-list {
+    gap: 16px;
+  }
+
+  #video .video-item > iframe {
+    width: 240px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #video {
+    margin-bottom: 50px;
+  }
+
+  #video h2 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
+
+  #video .video-list {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #video .video-item > iframe {
+    width: 280px;
+    height: 470px;
+  }
+
+  #video .instagram_btn {
+    padding: 8px 20px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #video h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+
+  #video .video-item > iframe {
+    width: 240px;
+    height: 400px;
+  }
+
+  #video .instagram_btn {
+    padding: 6px 16px;
+    font-size: 12px;
+    gap: 6px;
+  }
+}
