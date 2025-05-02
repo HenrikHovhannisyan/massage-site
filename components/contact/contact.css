@@ -1,0 +1,209 @@
+#contact .contact_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#contact .contact_container > .contact_info {
+  max-width: 548px;
+}
+
+#contact h2 {
+  font-family: Lora;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  color: #332d41;
+  margin-bottom: 24px;
+}
+
+#contact p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: #49454f;
+  margin-bottom: 40px;
+}
+
+#contact li {
+  margin-bottom: 24px;
+  list-style: none;
+}
+
+#contact li > a,
+#contact li > p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: #49454f;
+  text-decoration: none;
+}
+
+#contact .contact_container > .contact_form {
+  max-width: 664px;
+  background: #fef7ff;
+  box-shadow: 0px 2px 6px 2px #00000026;
+  box-shadow: 0px 1px 2px 0px #0000004d;
+  border-radius: 12px;
+  padding: 40px;
+}
+
+#contact .contact_container > .contact_form > h2 {
+  margin-bottom: 40px;
+}
+
+#contact .contact_container > .contact_form > form {
+  display: grid;
+  gap: 24px;
+}
+
+#contact .contact_container > .contact_form > form > input,
+#contact .contact_container > .contact_form > form > textarea {
+  border: 1px solid #79747e;
+  border-radius: 4px;
+  padding: 12px;
+  font-family: Lato;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #49454f;
+  background-color: #fef7ff;
+}
+
+#contact .contact_container > .contact_form > form > input::placeholder,
+#contact .contact_container > .contact_form > form > textarea::placeholder {
+  color: #49454f;
+}
+
+#contact .contact_container > .contact_form > form > button {
+  background: #6750a4;
+  border-radius: 100px;
+  padding: 10px;
+  font-family: Lora;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+#contact .contact_container > .contact_form > form > button:hover {
+  background: #4f3d81;
+}
+
+@media screen and (max-width: 992px) {
+  #contact h2 {
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 20px;
+  }
+
+  #contact .contact_container > .contact_info {
+    max-width: 450px;
+  }
+
+  #contact .contact_container > .contact_form {
+    max-width: 500px;
+    padding: 32px;
+  }
+
+  #contact .contact_container > .contact_form > h2 {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #contact .contact_container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  #contact .contact_container > .contact_info {
+    max-width: 100%;
+  }
+
+  #contact h2 {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 16px;
+  }
+
+  #contact p {
+    margin-bottom: 32px;
+  }
+
+  #contact .contact_container > .contact_form {
+    max-width: 100%;
+    padding: 24px;
+  }
+
+  #contact .contact_container > .contact_form > h2 {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #contact h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #contact p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 24px;
+  }
+
+  #contact li > a,
+  #contact li > p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  #contact .contact_container > .contact_form {
+    padding: 20px;
+  }
+
+  #contact .contact_container > .contact_form > form {
+    gap: 16px;
+  }
+
+  #contact .contact_container > .contact_form > form > input,
+  #contact .contact_container > .contact_form > form > textarea {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  #contact .contact_container > .contact_form > form > button {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #contact h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  #contact .contact_container > .contact_form {
+    padding: 16px;
+  }
+
+  #contact li {
+    margin-bottom: 16px;
+  }
+}
