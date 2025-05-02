@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Videos = () => {
   return (
-    <section id="video">
+    <section id="videos">
       <div className="container">
         <h2>Videos</h2>
         <div className="video-list">
