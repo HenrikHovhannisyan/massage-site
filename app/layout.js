@@ -12,7 +12,7 @@ const fontLato = Lato({
   subsets: ["latin"],
 });
 
-const fontRoboto = Lato({
+const fontRoboto = Roboto({
   weight: ["400", "700"],
   subsets: ["Roboto"],
 });
