@@ -1,7 +1,7 @@
 import React from "react";
 import "./services.css";
 import Item from "./Item";
-import { data } from "@/constants/services-data";
+import { services_data } from "@/constants/services-data";
 
 const Services = () => {
   return (
@@ -9,7 +9,7 @@ const Services = () => {
       <div className="container">
         <h2>Massage Services</h2>
         <div className="service-list">
-          {data.map((item) => (
+          {services_data.map((item) => (
             <Item
               key={item.id}
               img={item.img}

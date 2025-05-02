@@ -1,4 +1,4 @@
-export const data = [
+export const services_data = [
   {
     id: 1,
     title: "Neck + Shoulder Relaxation Massage",
