@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import "./banner.css";
 
 const Banner = () => {
@@ -16,6 +17,10 @@ const Banner = () => {
               Serving Orlando, Oviedo, Metrowest, and surrounding Central
               Florida communities.
             </small>
+            <div className="banner_btn">
+              <Link href="/contact">Book on Booksy</Link>
+              <Link href="/contact">Hey Goldie</Link>
+            </div>
           </div>
           <div className="banner_right">
             <img src="/images/man.png" alt="banner" />

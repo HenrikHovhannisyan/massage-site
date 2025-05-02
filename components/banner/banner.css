@@ -44,7 +44,31 @@
   letter-spacing: 0px;
   vertical-align: middle;
   color: #332d41;
-  margin-bottom: 24px;
+}
+
+#banner .banner_btn {
+  margin-top: 40px;
+  display: flex;
+  gap: 24px;
+}
+
+#banner .banner_btn > a {
+  border: 1px solid #79747e;
+  border-radius: 100px;
+  padding: 10px 24px;
+  font-family: Lora;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  vertical-align: middle;
+  color: #6750a4;
+  text-decoration: none;
+}
+
+#banner .banner_btn > a:hover {
+  background-color: #79747e;
 }
 
 @media screen and (max-width: 992px) {
@@ -83,7 +107,7 @@
   }
 
   #banner .banner_right > img {
-    max-width: 250px;
+    max-width: 200px;
   }
 
   #banner h1 {
@@ -118,7 +142,6 @@
   #banner small {
     font-size: 14px;
     line-height: 24px;
-    margin-bottom: 16px;
   }
 }
 
