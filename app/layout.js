@@ -14,7 +14,7 @@ const fontLato = Lato({
 
 const fontRoboto = Roboto({
   weight: ["400", "700"],
-  subsets: ["Roboto"],
+  subsets: ["latin"],
 });
 
 export const metadata = {
