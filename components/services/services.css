@@ -95,12 +95,6 @@
   .services_item {
     max-width: 100%;
   }
-
-  .services_item > img {
-    display: block;
-    margin: auto;
-    border-radius: 0;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -115,7 +109,6 @@
   }
 
   #services .service-list {
-    grid-template-columns: 1fr;
     gap: 60px;
     justify-items: center;
   }
@@ -141,7 +134,8 @@
   }
 
   #services .service-list {
-    gap: 40px;
+    grid-template-columns: 1fr;
+    gap: 30px;
   }
 
   .services_item {
@@ -165,6 +159,12 @@
   .services_item > .item_container > a {
     font-size: 13px;
     padding: 6px 12px;
+  }
+
+  .services_item > img {
+    display: block;
+    margin: auto;
+    border-radius: 0;
   }
 }
 @media screen and (max-width: 400px) {
