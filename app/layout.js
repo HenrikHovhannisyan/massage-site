@@ -1,4 +1,4 @@
-import { Lora, Lato } from "next/font/google";
+import { Lora, Lato, Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "../components/header/Header";
 
@@ -12,6 +12,11 @@ const fontLato = Lato({
   subsets: ["latin"],
 });
 
+const fontRoboto = Lato({
+  weight: ["400", "700"],
+  subsets: ["Roboto"],
+});
+
 export const metadata = {
   title: "Website Massage",
   description: "9864 Website for Sheepish Serenity Massage",
@@ -20,7 +25,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${fontLato.className} ${fontLora.className}`}>
+      <body
+        className={`${fontLato.className} ${fontLora.className} ${fontRoboto.className}`}
+      >
         <Header />
         {children}
       </body>
