@@ -1,6 +1,8 @@
 #contact .contact_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  position: relative;
+  bottom: -130px;
 }
 
 #contact .contact_container > .contact_info {
@@ -129,6 +131,7 @@
   #contact .contact_container {
     grid-template-columns: 1fr;
     gap: 40px;
+    position: unset;
   }
 
   #contact .contact_container > .contact_info {
