@@ -1,0 +1,138 @@
+#testimonials {
+  margin-bottom: 200px;
+}
+
+#testimonials h2 {
+  font-family: Lora;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 1px;
+  text-align: center;
+  vertical-align: middle;
+  color: #332d41;
+  margin-bottom: 48px;
+}
+
+#testimonials .testimonial-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#testimonials .testimonial-list > .testimonial {
+  box-shadow: 0px 2px 6px 2px #00000026;
+  box-shadow: 0px 1px 2px 0px #0000004d;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 654px;
+  text-align: center;
+}
+
+#testimonials .testimonial-list > .testimonial p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: #49454f;
+  margin-bottom: 40px;
+}
+
+#testimonials .testimonial-list > .testimonial h3 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: #49454f;
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 992px) {
+  #testimonials {
+    margin-bottom: 160px;
+  }
+
+  #testimonials h2 {
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 40px;
+  }
+
+  #testimonials .testimonial-list > .testimonial {
+    max-width: 550px;
+    padding: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #testimonials {
+    margin-bottom: 120px;
+  }
+
+  #testimonials h2 {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 32px;
+  }
+
+  #testimonials .testimonial-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #testimonials .testimonial-list > .testimonial {
+    max-width: 100%;
+    padding: 24px;
+  }
+
+  #testimonials .testimonial-list > .testimonial h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #testimonials {
+    margin-bottom: 100px;
+  }
+
+  #testimonials h2 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
+
+  #testimonials .testimonial-list > .testimonial {
+    padding: 20px;
+  }
+
+  #testimonials .testimonial-list > .testimonial p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 24px;
+  }
+
+  #testimonials .testimonial-list > .testimonial h3 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #testimonials {
+    margin-bottom: 80px;
+  }
+
+  #testimonials h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  #testimonials .testimonial-list > .testimonial {
+    padding: 16px;
+  }
+}
