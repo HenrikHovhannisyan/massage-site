@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import "./banner.css";
+import { info_data } from "@/constants/info-data";
 
 const Banner = () => {
   return (
@@ -18,8 +19,13 @@ const Banner = () => {
               Florida communities.
             </small>
             <div className="banner_btn">
-              <Link href="/contact">Book on Booksy</Link>
-              <Link href="/contact">Hey Goldie</Link>
+              <Link
+                href={info_data.booksy_link}
+                target="_blank"
+                alt={info_data.name}
+              >
+                Book on Booksy
+              </Link>
             </div>
           </div>
           <div className="banner_right">

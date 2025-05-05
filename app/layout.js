@@ -1,6 +1,7 @@
 import { Lora, Lato, Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "../components/header/Header";
+import { info_data } from "@/constants/info-data";
 
 const fontLora = Lora({
   weight: ["400", "700"],
@@ -18,8 +19,8 @@ const fontRoboto = Roboto({
 });
 
 export const metadata = {
-  title: "Website Massage",
-  description: "9864 Website for Sheepish Serenity Massage",
+  title: info_data.name,
+  description: info_data.description,
 };
 
 export default function RootLayout({ children }) {

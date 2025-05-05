@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 import Image from "next/image";
 import Link from "next/link";
+import { info_data } from "@/constants/info-data";
 
 const Footer = () => {
   return (
@@ -49,7 +50,7 @@ const Footer = () => {
           <hr />
           <div className="container">
             <div className="footer_copyright">
-              <p>© Sheepish Serenity Massage</p>
+              <p>© {info_data.name}</p>
               <Link href="#">Privacy Policy</Link>
             </div>
           </div>

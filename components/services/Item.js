@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import "./services.css";
+import { info_data } from "@/constants/info-data";
 
 const Item = ({ img, title, text, url }) => {
   return (
@@ -10,7 +11,9 @@ const Item = ({ img, title, text, url }) => {
         <h3>{title}</h3>
         <p>{text}</p>
         <hr />
-        <Link href={url}>Book Now</Link>
+        <Link href={info_data.booksy_link} target="_blank" alt={info_data.name}>
+          Book Now
+        </Link>
       </div>
     </div>
   );
