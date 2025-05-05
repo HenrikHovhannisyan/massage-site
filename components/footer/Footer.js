@@ -19,7 +19,7 @@ const Footer = () => {
               />
             </div>
             <div className="footer_social">
-              <Link href="" target="_blank">
+              <Link href={info_data.instagram} target="_blank">
                 <Image
                   src="/images/icons/footer_instagram.png"
                   alt="Instagram"
@@ -27,7 +27,7 @@ const Footer = () => {
                   height={24}
                 />
               </Link>
-              <Link href="" target="_blank">
+              <Link href={info_data.facebook} target="_blank">
                 <Image
                   src="/images/icons/footer_facebook.png"
                   alt="Facebook"
