@@ -11,12 +11,6 @@ const Contact = () => {
         <div className="contact_container">
           <div className="contact_info">
             <h2>Get in Touch</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Risus tristique augue
-              bibendum tortor integer imperdiet blandit justo facilisis.
-              Praesent fames tristique consequat nulla facilisi. Praesent lectus
-              neque id volutpat a ultrices dignissim interdum sed.
-            </p>
             <ul>
               <li>
                 <Link href={`mailto:${info_data.email}`}>

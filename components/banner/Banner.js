@@ -15,7 +15,7 @@ const Banner = () => {
               World
             </p>
             <small>
-              Serving Orlando, Oviedo, Metrowest, and surrounding Central
+              Massages Orlando, Oviedo, Metrowest, and surrounding Central
               Florida communities.
             </small>
             <div className="banner_btn">

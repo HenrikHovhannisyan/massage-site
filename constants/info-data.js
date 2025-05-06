@@ -3,6 +3,7 @@ export const info_data = {
   description: "9864 Website for Sheepish Serenity Massage",
   instagram: "https://www.instagram.com/sheepyn8/",
   facebook: "https://www.facebook.com/share/1BER3mYEDT/",
+  tiktok: "https://www.tiktok.com/@sheepyn8?_t=ZT-8w6N4N3HD70&_r=1",
   email: "nateybopeep@gmail.com",
   phone: "407-429-9535",
   address: "1010 Arthur Ave suite 6, Orlando, FL 32804",

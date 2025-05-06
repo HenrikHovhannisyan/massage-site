@@ -35,10 +35,10 @@ const Footer = () => {
                   height={24}
                 />
               </Link>
-              <Link href="" target="_blank">
+              <Link href={info_data.tiktok} target="_blank">
                 <Image
-                  src="/images/icons/footer_youtube.png"
-                  alt="Youtube"
+                  src="/images/icons/tik_tok.png"
+                  alt="Tik-tok"
                   width={24}
                   height={24}
                 />
