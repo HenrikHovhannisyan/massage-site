@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import "./header.css";
 
@@ -17,7 +16,7 @@ const Header = () => {
         <div className="header-content">
           <div className="logo">
             <Link href="/">
-              <Image src="/images/logo.png" alt="Logo" width={65} height={55} />
+              <img src="/images/logo.png" alt="Logo" width={65} height={55} />
             </Link>
           </div>
 

@@ -1,6 +1,5 @@
 import React from "react";
 import "./footer.css";
-import Image from "next/image";
 import Link from "next/link";
 import { info_data } from "@/constants/info-data";
 
@@ -11,7 +10,7 @@ const Footer = () => {
         <div className="container">
           <div className="footer_content">
             <div className="footer_logo">
-              <Image
+              <img
                 src="/images/footer_logo.png"
                 alt="Logo"
                 width={155}
@@ -20,7 +19,7 @@ const Footer = () => {
             </div>
             <div className="footer_social">
               <Link href={info_data.instagram} target="_blank">
-                <Image
+                <img
                   src="/images/icons/footer_instagram.png"
                   alt="Instagram"
                   width={24}
@@ -28,7 +27,7 @@ const Footer = () => {
                 />
               </Link>
               <Link href={info_data.facebook} target="_blank">
-                <Image
+                <img
                   src="/images/icons/footer_facebook.png"
                   alt="Facebook"
                   width={24}
@@ -36,7 +35,7 @@ const Footer = () => {
                 />
               </Link>
               <Link href={info_data.tiktok} target="_blank">
-                <Image
+                <img
                   src="/images/icons/tik_tok.png"
                   alt="Tik-tok"
                   width={24}

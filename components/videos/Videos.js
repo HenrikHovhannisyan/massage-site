@@ -3,7 +3,6 @@ import Link from "next/link";
 import "./videos.css";
 import { videos_data } from "@/constants/videos-data";
 import { info_data } from "@/constants/info-data";
-import Image from "next/image";
 
 const Videos = () => {
   return (
@@ -29,7 +28,7 @@ const Videos = () => {
           className="instagram_btn"
         >
           Follow us on Instagram
-          <Image
+          <img
             src="/images/icons/instagram.png"
             width={18}
             height={18}

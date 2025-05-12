@@ -1,7 +1,6 @@
 import React from "react";
 import "./testimonials.css";
 import { testimonials_data } from "@/constants/testimonials-data";
-import Image from "next/image";
 
 const Testimonials = () => {
   return (
@@ -13,7 +12,7 @@ const Testimonials = () => {
             return (
               <div className="testimonial" key={item.id}>
                 <p>{item.text}</p>
-                <Image
+                <img
                   src={item.img}
                   alt={item.name}
                   width={"96"}
